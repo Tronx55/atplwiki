@@ -34,7 +34,7 @@ site_author = "The ATPL Network and its contributors"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-&copy; 2026 The ATPL Netowork and its contributors - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+&copy; 2026 The ATPL Network and its contributors - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -44,10 +44,57 @@ copyright = """
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+ nav = [
+   { "Welcome" = [{"Knowledge" = "index.md"}] },
+   { "Becoming a pilot" = ["becoming-a-pilot/index.md"]},
+   { "ATPL theory exams" = ["atpl-theory-exams/index.md"]},
+   {"Subjects" = [
+     "subjects/index.md",
+     {"Air Law" = [
+     "subjects/010-alw/index.md",
+  ]},
+  {"AGK" = [
+     "subjects/021-agk/index.md",
+  ]},
+  {"Instruments" = [
+    "subjects/022-inst/index.md",
+  ]},
+  {"Mass & Balance" = [
+    "subjects/031-m&b/index.md",
+  ]},
+  {"Performance" = [
+    "subjects/032-perf/index.md",
+  ]},
+  {"Flight Planning & Monitoring" = [
+    "subjects/033-fpl/index.md",
+  ]},
+  {"Human Performance & Limitations" = [
+    "subjects/040-hpl/index.md",
+  ]},
+  {"Meteorology" = [
+    "subjects/050-met/index.md",
+  ]},
+  {"General Navigation" = [
+    "subjects/061-gnav/index.md",
+  ]},
+  {"Radio Navigation" = [
+    "subjects/062-rnav/index.md",
+  ]},
+  {"Operational Procedures" = [
+    "subjects/070-ops/index.md",
+  ]},
+  {"Principles of Flight" = [
+    "subjects/081-pof/index.md",
+  ]},
+  {"Communications" = [
+    "subjects/090-com/index.md",
+  ]},
+  {"KSA" = [
+    "subjects/100-ksa/index.md",
+  ]},
+  ]},
+  
+ ]
 
 # Custom assets for the typing animation
 extra_javascript = [
