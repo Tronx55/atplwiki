@@ -1,0 +1,67 @@
+/* Typing Animation Styles */
+.typing-prefix,
+.typing-text {
+  display: inline;
+}
+
+.typing-cursor {
+  display: inline;
+  font-weight: normal;
+  animation: blink 1s infinite;
+  color: var(--md-primary-fg-color, #3f51b5);
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Ensure the header title has consistent styling during animation */
+.md-header__title,
+.md-header-nav__title {
+  transition: none !important;
+}
+
+/* Prevent text selection on the animated title */
+.typing-prefix,
+.typing-text,
+.typing-cursor {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Additional styling for better visual appearance - match site name weight */
+.md-header__title .typing-prefix,
+.md-header__title .typing-text {
+  font-weight: 600;
+  color: inherit;
+  opacity: 1;
+}
+
+/* Responsive considerations */
+@media (max-width: 768px) {
+  .typing-cursor {
+    font-size: 0.9em;
+  }
+}
+
+/* Dark theme compatibility */
+[data-md-color-scheme='slate'] .typing-cursor {
+  color: var(--md-primary-fg-color, #7c4dff);
+}
+
+/* Accessibility: Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .typing-cursor {
+    animation: none;
+    opacity: 1;
+  }
+}
