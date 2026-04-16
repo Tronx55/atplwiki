@@ -76,7 +76,7 @@ organization can lead to delays that cost more in the long run. At the same time
 quality - Efficiency and structure matter more than branding.
 
 It’s also worth noting that you will likely need to leave your home country to start training. Many students move to countries
-with better weather and lower costs, such as Spain or Eastern Europe, which can significantly improve training speed
+with better weather or lower costs, such as Spain or Eastern Europe, which can significantly improve training speed
 and consistency.
 
 Other important considerations include aircraft maintenance, instructor quality, weather conditions, student
