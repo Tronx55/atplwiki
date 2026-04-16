@@ -63,9 +63,10 @@ make that dream come true. In Europe, there are many flight schools to choose fr
 setups to large airline-integrated academies.
 
 One of the most important factors is financial stability. Pilot training requires large upfront costs, and if a school
-goes bankrupt mid-training, students can be left stranded. A recent example is Pilot Flight Academy in Norway, which
-faced bankruptcy in 2026, leaving students in an uncertain position after paying significant fees. Situations like this
-show why it’s important to research ownership, funding, and long-term stability before committing.
+goes bankrupt mid-training, students can be left stranded. A recent example is [Pilot Flight Academy](https://www.nrk.no/vestfoldogtelemark/desperat-stemning-etter-at-pilot-flight-academy-gikk-konkurs_-_-fortvilende-1.17714073) in Norway, which
+faced bankruptcy in 2026 and [FTA-Global](https://www.ftnonline.co.uk/2023/05/23/fta-global-collapses/) in United Kingdom in 2023, leaving students in an uncertain position after
+paying significant fees. Situations like this show why it’s important to research ownership, funding, and 
+long-term stability before committing.
 
 You should also look closely at a school’s track record for finishing students on time. Many schools advertise fast
 programs, but delays due to poor scheduling, instructor shortages, or aircraft availability are common.
