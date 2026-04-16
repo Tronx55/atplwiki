@@ -2,7 +2,8 @@
 
 The collective knowledge of the ATPL Network
 
-This project is aimed to collect and provide knowledge about aviation, including, but not limited to the path to a European pilot license.
+This project is aimed to collect and provide knowledge about aviation, including,
+but not limited to the path to a European pilot license.
 
 ## How to Contribute
 
@@ -24,4 +25,5 @@ When submitting pull requests please ensure using [semantic commit messages](htt
 
 ## License
 
-The platform including its source code and distributed form is licensed under [GNU AGPLv3](/LICENSE). All content (text and media) is licensed under [CC BY-NC-SA 4.0](/CONTENT-LICENSE).
+The platform including its source code and distributed form is licensed under [GNU AGPLv3](/LICENSE).
+All content (text and media) is licensed under [CC BY-NC-SA 4.0](/CONTENT-LICENSE).

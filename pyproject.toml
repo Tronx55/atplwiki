@@ -8,5 +8,6 @@ dependencies = []
 
 [dependency-groups]
 dev = [
+    "rumdl>=0.1.72",
     "zensical>=0.0.32",
 ]
