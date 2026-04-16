@@ -98,7 +98,9 @@ copyright = """
 
 # Custom assets for the typing animation
 extra_javascript = [
-    "assets/js/typing-animation.js"
+    "assets/js/typing-animation.js",
+    "assets/js/mathjax.js",
+    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
 ]
 
 extra_css = [
@@ -371,4 +373,7 @@ icon = "fontawesome/brands/github"
 link = "https://github.com/theatplnetwork/knowledge"
 [[project.extra.social]]
 icon = "fontawesome/brands/discord"
-link = "https://discord.atpl.network"  
+link = "https://discord.atpl.network"
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
